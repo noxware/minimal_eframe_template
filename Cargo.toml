@@ -1,6 +1,6 @@
 [package]
-name = "egui-minimal"
-version = "0.1.0"
+name = "my-app"
+version = "0.0.0"
 edition = "2021"
 
 [dependencies]
