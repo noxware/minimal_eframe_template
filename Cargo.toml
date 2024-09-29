@@ -4,3 +4,28 @@ version = "0.0.0"
 edition = "2021"
 
 [dependencies]
+# egui
+egui = "0.29"
+
+eframe = { version = "0.29", default-features = false, features = [
+  # "accesskit",
+  "default_fonts",
+  "glow",
+] }
+
+egui_extras = { version = "0.29", features = [
+  "all_loaders",
+  "datepicker",
+  "syntect",
+] }
+
+env_logger = "0.11"
+log = "0.4"
+
+# common
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+reqwest = { version = "0.12.7", features = ["json", "blocking"] }
+pollster = "0.3.0"
+
+# other
